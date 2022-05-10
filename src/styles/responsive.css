@@ -1,0 +1,113 @@
+@media screen and (max-width: 768px) {
+    .header_navbar .header_drawer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 669px) {
+    .nav-header {
+        z-index: 10;
+        background-color: rgba(245, 235, 234, 0.712);
+        width: 100%;
+        position: absolute;
+        transition: all 0.3s;
+        top: -500px;
+    }
+    .open {
+        top: 75px;
+    }
+    .nav-item {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        border-bottom: 1px solid #490303;
+        width: 100%;
+        text-align: left;
+        min-height: 50px;
+        min-width: 50px;
+    }
+    .nav-item a {
+        font-size: 28px;
+    }
+    .review-header {
+        flex-direction: column;
+    }
+    .review-name {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .review-date {
+        text-align: left;
+    }
+    .hero {
+        background-image: url('../public/images/heros/hero-image_1-small.jpg');
+    }
+    .hero-title {
+        font-size: 35px;
+    }
+    .hero-subtitle {
+        margin-top: 17px;
+        font-size: 14px;
+        letter-spacing: 3px;
+    }
+}
+
+@media screen and (min-width: 670px) {
+    .list-resto-content {
+        padding: 16px 32px 32px 32px;
+    }
+    .list-resto-title {
+        font-size: 18px;
+    }
+    .list-resto-description {
+        font-size: 14px;
+    }
+    .hamburger-button {
+        display: none;
+    }
+    .restaurant-review {
+        padding: 10px 20px;
+    } 
+}
+
+@media screen and (min-width: 700px) {
+    .lists {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 16px;
+    }
+    .restaurant-menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 16px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .lists {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .restaurant-menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 16px;
+    }
+    .nav-list {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .hero {
+        max-width: 1200px;
+    }
+}

@@ -1,0 +1,21 @@
+.card {
+    width: 100%;
+    margin: 15px auto;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.card-title {
+    font-size: 28px;
+    padding: 15px;
+    font-weight: lighter;
+    background-color: rgb(88, 2, 2);
+    color: white;
+    border-radius: 5px;
+}
+
+.card-title:hover {
+    content: '';
+    margin-top: 16px;
+    border-bottom: 1px solid #eeeeee;
+}

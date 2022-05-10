@@ -1,0 +1,124 @@
+.detail {
+    margin-top: 32px;
+}
+
+.restaurant-picture {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.detailRestaurant {
+    display: grid;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.restaurant-rate {
+    padding-bottom: 20px;
+}
+
+.detailRestaurant h2{
+    font-size: 22px;
+    color: rgb(100, 4, 2);;
+}
+
+.restaurant-description-title {
+    text-align: center;
+    font-size: 15px;
+}
+
+.restaurant-description {
+    text-align: justify;
+}
+
+.restaurant-categories {
+    text-align: left;
+}
+
+.restaurant-categories-title {
+    margin-top: 6px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.detailRestaurant-menu h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.restaurant-menu h3 {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(100, 4, 2);
+    padding: 10px;
+    font-style: italic;
+}
+.restaurant-menu ol {
+    margin: 0 auto;
+}
+
+.restaurant-menu li {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.review-title {
+    font-size: 20px;
+}
+
+.restaurant-review {
+    margin-bottom: 20px;
+}
+
+.restaurant-review:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.review-name {
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.review-date {
+    font-size: 1rem;
+}
+
+.review-comment {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.like {
+    font-size: 18px;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
